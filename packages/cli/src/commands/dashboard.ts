@@ -1,6 +1,6 @@
 import { defineCommand } from 'citty';
 import { resolve } from 'node:path';
-import { ConfigLoader, HealthScorer, SnapshotEngine, SimpleGitAdapter } from '@vibeguard/core';
+import { ConfigLoader, HealthScorer, SnapshotEngine, SimpleGitAdapter } from 'vibeguard-core';
 import { error, printTiming, jsonOutput } from '../ui/format.js';
 
 export const dashboardCommand = defineCommand({

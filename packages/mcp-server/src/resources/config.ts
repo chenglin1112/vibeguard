@@ -1,4 +1,4 @@
-import type { VibeGuardConfig } from "@vibeguard/shared";
+import type { VibeGuardConfig } from "vibeguard-shared";
 
 export function getConfigResource(config: VibeGuardConfig) {
 	return {

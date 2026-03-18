@@ -1,5 +1,5 @@
-import type { HealthReport, RecoveryPlan, RecoveryStep, Result } from '@vibeguard/shared';
-import { ok, err, vibeError, ErrorCodes } from '@vibeguard/shared';
+import type { HealthReport, RecoveryPlan, RecoveryStep, Result } from 'vibeguard-shared';
+import { ok, err, vibeError, ErrorCodes } from 'vibeguard-shared';
 
 const RISK_ORDER: Record<string, number> = { low: 0, medium: 1, high: 2 };
 

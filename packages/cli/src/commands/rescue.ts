@@ -1,6 +1,6 @@
 import { defineCommand } from 'citty';
 import { resolve } from 'node:path';
-import { ConfigLoader, HealthScorer, RecoveryPlanner } from '@vibeguard/core';
+import { ConfigLoader, HealthScorer, RecoveryPlanner } from 'vibeguard-core';
 import { success, error, info, printTiming, jsonOutput } from '../ui/format.js';
 
 export const rescueCommand = defineCommand({

@@ -1,4 +1,4 @@
-import type { Rule, RuleViolation } from '@vibeguard/shared';
+import type { Rule, RuleViolation } from 'vibeguard-shared';
 
 /** Reports circular dependency chains found in the dependency graph. */
 export const noCircularDeps: Rule = {

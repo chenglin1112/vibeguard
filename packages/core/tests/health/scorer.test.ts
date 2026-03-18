@@ -3,8 +3,8 @@ import { mkdtemp, rm, mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { HealthScorer } from '../../src/health/scorer.js';
-import { DEFAULT_CONFIG } from '@vibeguard/shared';
-import type { VibeGuardConfig } from '@vibeguard/shared';
+import { DEFAULT_CONFIG } from 'vibeguard-shared';
+import type { VibeGuardConfig } from 'vibeguard-shared';
 
 const config = DEFAULT_CONFIG as VibeGuardConfig;
 const healthConfig = config.health;

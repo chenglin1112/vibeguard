@@ -1,6 +1,6 @@
 import { defineCommand } from 'citty';
 import { resolve } from 'node:path';
-import { SnapshotEngine, SimpleGitAdapter, FileWatcher, ConfigLoader, RulesEngine } from '@vibeguard/core';
+import { SnapshotEngine, SimpleGitAdapter, FileWatcher, ConfigLoader, RulesEngine } from 'vibeguard-core';
 import { success, error, warn, info } from '../ui/format.js';
 
 export const watchCommand = defineCommand({

@@ -79,7 +79,7 @@ Add to `.cursor/mcp.json`:
   "mcpServers": {
     "vibeguard": {
       "command": "npx",
-      "args": ["@vibeguard/mcp-server"]
+      "args": ["vibeguard-mcp-server"]
     }
   }
 }
@@ -88,12 +88,12 @@ Add to `.cursor/mcp.json`:
 ### Claude Code
 
 ```bash
-claude mcp add vibeguard -- npx @vibeguard/mcp-server
+claude mcp add vibeguard -- npx vibeguard-mcp-server
 ```
 
 ### Windsurf
 
-Add to your MCP configuration following the Windsurf docs, using `npx @vibeguard/mcp-server` as the command.
+Add to your MCP configuration following the Windsurf docs, using `npx vibeguard-mcp-server` as the command.
 
 ### MCP Tools
 
@@ -152,10 +152,10 @@ VibeGuard is a pnpm monorepo with 4 packages:
 
 | Package | Description |
 |---------|-------------|
-| `@vibeguard/shared` | TypeScript types, constants, error codes, and utilities |
-| `@vibeguard/core` | Core engine: snapshots, file watcher, rule engine, health scorer, recovery planner, architecture analyzer |
-| `@vibeguard/cli` | Command-line interface built with citty |
-| `@vibeguard/mcp-server` | MCP server for AI tool integration (tools, resources, prompts) |
+| `vibeguard-shared` | TypeScript types, constants, error codes, and utilities |
+| `vibeguard-core` | Core engine: snapshots, file watcher, rule engine, health scorer, recovery planner, architecture analyzer |
+| `vibeguard` (cli) | Command-line interface built with citty |
+| `vibeguard-mcp-server` | MCP server for AI tool integration (tools, resources, prompts) |
 
 ## Development
 

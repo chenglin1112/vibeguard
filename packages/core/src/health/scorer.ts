@@ -1,8 +1,8 @@
 import type {
   HealthReport, HealthMetrics, MetricDetail, HealthGrade,
   HealthIssue, HealthConfig, VibeGuardConfig, Result, DependencyGraph, FileNode,
-} from '@vibeguard/shared';
-import { ok, err, vibeError, ErrorCodes } from '@vibeguard/shared';
+} from 'vibeguard-shared';
+import { ok, err, vibeError, ErrorCodes } from 'vibeguard-shared';
 import { ArchitectureAnalyzer } from '../analyzer/architecture.js';
 
 /**

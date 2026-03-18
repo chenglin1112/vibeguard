@@ -1,4 +1,4 @@
-import type { Rule, RuleViolation } from '@vibeguard/shared';
+import type { Rule, RuleViolation } from 'vibeguard-shared';
 
 /** Flags files whose estimated cyclomatic complexity exceeds the configured threshold. */
 export const maxComplexity: Rule = {

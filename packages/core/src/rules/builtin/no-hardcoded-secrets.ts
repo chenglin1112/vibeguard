@@ -1,4 +1,4 @@
-import type { Rule, RuleViolation } from '@vibeguard/shared';
+import type { Rule, RuleViolation } from 'vibeguard-shared';
 
 const SECRET_PATTERNS: { pattern: RegExp; label: string }[] = [
   { pattern: /password\s*[:=]\s*['"][^'"]+['"]/gi, label: 'hardcoded password' },

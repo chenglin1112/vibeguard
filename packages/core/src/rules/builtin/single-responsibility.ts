@@ -1,4 +1,4 @@
-import type { Rule, RuleViolation } from '@vibeguard/shared';
+import type { Rule, RuleViolation } from 'vibeguard-shared';
 
 const MAX_EXPORTS = 3;
 

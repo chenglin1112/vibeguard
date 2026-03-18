@@ -1,4 +1,4 @@
-import { RulesEngine, ConfigLoader } from "@vibeguard/core";
+import { RulesEngine, ConfigLoader } from "vibeguard-core";
 import { resolve } from "node:path";
 
 export function getCheckTool() {

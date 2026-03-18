@@ -3,7 +3,7 @@ import { mkdtemp, rm, mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { RulesEngine } from '../../src/rules/engine.js';
-import type { SnapshotDiff } from '@vibeguard/shared';
+import type { SnapshotDiff } from 'vibeguard-shared';
 
 describe('RulesEngine', () => {
   let tempDir: string;

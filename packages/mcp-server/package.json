@@ -1,5 +1,5 @@
 {
-  "name": "@vibeguard/mcp-server",
+  "name": "vibeguard-mcp-server",
   "version": "0.1.0",
   "description": "MCP Server for VibeGuard — AI tool integration for Cursor, Claude Code, Windsurf",
   "license": "MIT",
@@ -16,9 +16,6 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chenglin1112/vibeguard.git",
@@ -29,8 +26,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@vibeguard/shared": "workspace:^",
-    "@vibeguard/core": "workspace:^",
+    "vibeguard-shared": "workspace:^",
+    "vibeguard-core": "workspace:^",
     "@modelcontextprotocol/sdk": "^1.6.0"
   },
   "devDependencies": {

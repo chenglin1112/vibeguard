@@ -1,6 +1,6 @@
 import simpleGit, { type SimpleGit } from 'simple-git';
-import { ok, err, vibeError, ErrorCodes } from '@vibeguard/shared';
-import type { GitAdapter, GitCommit, GitFileStatus, GitLogOptions, Result } from '@vibeguard/shared';
+import { ok, err, vibeError, ErrorCodes } from 'vibeguard-shared';
+import type { GitAdapter, GitCommit, GitFileStatus, GitLogOptions, Result } from 'vibeguard-shared';
 
 /**
  * Git adapter backed by `simple-git`.

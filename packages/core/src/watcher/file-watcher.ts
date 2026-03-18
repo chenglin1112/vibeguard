@@ -1,6 +1,6 @@
 import { watch, type FSWatcher } from 'chokidar';
-import type { SnapshotConfig } from '@vibeguard/shared';
-import { DEFAULT_IGNORE } from '@vibeguard/shared';
+import type { SnapshotConfig } from 'vibeguard-shared';
+import { DEFAULT_IGNORE } from 'vibeguard-shared';
 
 /**
  * Debounced file-system watcher that batches change events and

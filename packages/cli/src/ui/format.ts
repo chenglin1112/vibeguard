@@ -1,5 +1,5 @@
 import { consola } from 'consola';
-import type { Snapshot, FileChange, VibeGuardError } from '@vibeguard/shared';
+import type { Snapshot, FileChange, VibeGuardError } from 'vibeguard-shared';
 
 export function success(message: string): void {
   consola.success(message);

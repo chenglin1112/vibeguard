@@ -1,4 +1,4 @@
-import type { Rule } from '@vibeguard/shared';
+import type { Rule } from 'vibeguard-shared';
 import { noCircularDeps } from './no-circular-deps.js';
 import { noCrossLayerImports } from './no-cross-layer-imports.js';
 import { singleResponsibility } from './single-responsibility.js';

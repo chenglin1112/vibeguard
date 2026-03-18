@@ -1,4 +1,4 @@
-import type { Rule, RuleViolation } from '@vibeguard/shared';
+import type { Rule, RuleViolation } from 'vibeguard-shared';
 
 /** Flags files that exceed the configured line-count threshold. */
 export const noGodFile: Rule = {

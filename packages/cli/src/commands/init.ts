@@ -1,8 +1,8 @@
 import { defineCommand } from 'citty';
 import { resolve } from 'node:path';
 import { readFile, appendFile } from 'node:fs/promises';
-import { SnapshotEngine, SimpleGitAdapter, ConfigLoader } from '@vibeguard/core';
-import { VIBEGUARD_DATA_DIR } from '@vibeguard/shared';
+import { SnapshotEngine, SimpleGitAdapter, ConfigLoader } from 'vibeguard-core';
+import { VIBEGUARD_DATA_DIR } from 'vibeguard-shared';
 import { success, error, info, printTiming, jsonOutput } from '../ui/format.js';
 
 export const initCommand = defineCommand({

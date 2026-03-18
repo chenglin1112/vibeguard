@@ -9,7 +9,7 @@ import {
 	GetPromptRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
 import { resolve } from "node:path";
-import { SnapshotEngine, SimpleGitAdapter, ConfigLoader } from "@vibeguard/core";
+import { SnapshotEngine, SimpleGitAdapter, ConfigLoader } from "vibeguard-core";
 import { getSnapshotTool } from "./tools/snapshot.js";
 import { getRollbackTool } from "./tools/rollback.js";
 import { getDiffTool } from "./tools/diff.js";

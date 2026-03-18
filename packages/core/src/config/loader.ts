@@ -1,8 +1,8 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parse, stringify } from 'yaml';
-import { ok, err, vibeError, ErrorCodes, CONFIG_FILENAME, DEFAULT_CONFIG } from '@vibeguard/shared';
-import type { VibeGuardConfig, Result } from '@vibeguard/shared';
+import { ok, err, vibeError, ErrorCodes, CONFIG_FILENAME, DEFAULT_CONFIG } from 'vibeguard-shared';
+import type { VibeGuardConfig, Result } from 'vibeguard-shared';
 
 /**
  * Loads, validates, and creates VibeGuard YAML config files.

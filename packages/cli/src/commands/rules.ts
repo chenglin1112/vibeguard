@@ -1,8 +1,8 @@
 import { defineCommand } from 'citty';
 import { resolve } from 'node:path';
-import { ConfigLoader, RulesEngine } from '@vibeguard/core';
+import { ConfigLoader, RulesEngine } from 'vibeguard-core';
 import { success, error, info, jsonOutput } from '../ui/format.js';
-import { RULE_PRESETS } from '@vibeguard/shared';
+import { RULE_PRESETS } from 'vibeguard-shared';
 
 export const rulesCommand = defineCommand({
   meta: { name: 'rules', description: 'Manage architecture rules' },

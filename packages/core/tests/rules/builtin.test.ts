@@ -5,8 +5,8 @@ import type {
   DependencyGraph,
   FileNode,
   CircularDependency,
-} from '@vibeguard/shared';
-import { DEFAULT_CONFIG } from '@vibeguard/shared';
+} from 'vibeguard-shared';
+import { DEFAULT_CONFIG } from 'vibeguard-shared';
 
 function makeContext(overrides: Partial<RuleContext> = {}): RuleContext {
   return {

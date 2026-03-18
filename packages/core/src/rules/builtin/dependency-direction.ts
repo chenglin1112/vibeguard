@@ -1,4 +1,4 @@
-import type { Rule, RuleViolation, LayerDefinition } from '@vibeguard/shared';
+import type { Rule, RuleViolation, LayerDefinition } from 'vibeguard-shared';
 
 const DEFAULT_LAYER_ORDER: LayerDefinition[] = [
   { name: 'ui', patterns: ['components/', 'pages/'], allowedDependencies: ['services', 'data'] },

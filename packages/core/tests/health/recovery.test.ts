@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { RecoveryPlanner } from '../../src/health/recovery.js';
-import type { HealthReport, HealthIssue } from '@vibeguard/shared';
+import type { HealthReport, HealthIssue } from 'vibeguard-shared';
 
 function makeReport(overrides: Partial<HealthReport> = {}): HealthReport {
   return {

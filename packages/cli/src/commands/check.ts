@@ -1,6 +1,6 @@
 import { defineCommand } from 'citty';
 import { resolve } from 'node:path';
-import { ConfigLoader, RulesEngine } from '@vibeguard/core';
+import { ConfigLoader, RulesEngine } from 'vibeguard-core';
 import { success, error, info, printTiming, jsonOutput } from '../ui/format.js';
 
 export const checkCommand = defineCommand({

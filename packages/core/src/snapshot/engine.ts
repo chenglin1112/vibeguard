@@ -1,11 +1,11 @@
 import {
   ok, err, vibeError, ErrorCodes,
   VIBEGUARD_PREFIX, shortHash, summarizeChanges,
-} from '@vibeguard/shared';
+} from 'vibeguard-shared';
 import type {
   GitAdapter, Snapshot, SnapshotDiff, FileChange, DiffHunk,
   SnapshotConfig, SnapshotListOptions, Result,
-} from '@vibeguard/shared';
+} from 'vibeguard-shared';
 
 /**
  * Core snapshot engine – create, list, diff, rollback, and compare snapshots.

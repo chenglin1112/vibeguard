@@ -1,5 +1,5 @@
-import { RulesEngine, ConfigLoader } from "@vibeguard/core";
-import { RULE_PRESETS } from "@vibeguard/shared";
+import { RulesEngine, ConfigLoader } from "vibeguard-core";
+import { RULE_PRESETS } from "vibeguard-shared";
 import { resolve } from "node:path";
 
 export function getRulesTool() {

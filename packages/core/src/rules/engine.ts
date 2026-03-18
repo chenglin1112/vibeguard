@@ -1,10 +1,10 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { ok, err, vibeError, ErrorCodes, RULE_PRESETS } from '@vibeguard/shared';
+import { ok, err, vibeError, ErrorCodes, RULE_PRESETS } from 'vibeguard-shared';
 import type {
   Result, Rule, RuleViolation, RuleContext, RulesConfig,
   VibeGuardConfig, ProjectCheckResult, SnapshotDiff,
-} from '@vibeguard/shared';
+} from 'vibeguard-shared';
 import { allBuiltinRules } from './builtin/index.js';
 import { ArchitectureAnalyzer } from '../analyzer/architecture.js';
 import { ConfigLoader } from '../config/loader.js';
@@ -161,7 +161,7 @@ export class RulesEngine {
       this.fullConfig = configResult.data;
       return this.fullConfig;
     }
-    const { DEFAULT_CONFIG } = await import('@vibeguard/shared');
+    const { DEFAULT_CONFIG } = await import('vibeguard-shared');
     this.fullConfig = DEFAULT_CONFIG as VibeGuardConfig;
     return this.fullConfig;
   }

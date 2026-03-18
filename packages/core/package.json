@@ -1,5 +1,5 @@
 {
-  "name": "@vibeguard/core",
+  "name": "vibeguard-core",
   "version": "0.1.0",
   "description": "Core engine for VibeGuard — snapshot, architecture analysis, health scoring",
   "license": "MIT",
@@ -13,9 +13,6 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chenglin1112/vibeguard.git",
@@ -26,7 +23,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@vibeguard/shared": "workspace:^",
+    "vibeguard-shared": "workspace:^",
     "chokidar": "^4.0.0",
     "consola": "^3.4.0",
     "simple-git": "^3.27.0",

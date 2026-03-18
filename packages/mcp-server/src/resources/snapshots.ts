@@ -1,4 +1,4 @@
-import type { SnapshotEngine } from "@vibeguard/core";
+import type { SnapshotEngine } from "vibeguard-core";
 
 export function getSnapshotsResource(engine: SnapshotEngine) {
 	return {

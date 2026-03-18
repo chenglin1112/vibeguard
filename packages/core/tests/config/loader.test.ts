@@ -3,7 +3,7 @@ import { mkdtemp, rm, writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { ConfigLoader } from '../../src/config/loader.js';
-import { CONFIG_FILENAME, DEFAULT_CONFIG } from '@vibeguard/shared';
+import { CONFIG_FILENAME, DEFAULT_CONFIG } from 'vibeguard-shared';
 
 describe('ConfigLoader', () => {
   let tempDir: string;

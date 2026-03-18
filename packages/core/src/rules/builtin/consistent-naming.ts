@@ -1,5 +1,5 @@
 import { basename, dirname } from 'node:path';
-import type { Rule, RuleViolation } from '@vibeguard/shared';
+import type { Rule, RuleViolation } from 'vibeguard-shared';
 
 const KEBAB = /^[a-z][a-z0-9]*(-[a-z0-9]+)*$/;
 const CAMEL = /^[a-z][a-zA-Z0-9]*$/;

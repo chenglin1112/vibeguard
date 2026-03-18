@@ -1,11 +1,11 @@
 import { Project, SyntaxKind, type SourceFile } from 'ts-morph';
 import { resolve, relative, dirname, join } from 'node:path';
 import { existsSync } from 'node:fs';
-import { ok, err, vibeError, ErrorCodes } from '@vibeguard/shared';
+import { ok, err, vibeError, ErrorCodes } from 'vibeguard-shared';
 import type {
   Result, DependencyGraph, FileNode, ImportInfo,
   CircularDependency, LayerViolation, LayerDefinition,
-} from '@vibeguard/shared';
+} from 'vibeguard-shared';
 
 const SOURCE_EXTENSIONS = ['.ts', '.tsx', '.js', '.jsx'];
 

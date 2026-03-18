@@ -1,5 +1,5 @@
 {
-  "name": "vibeguard",
+  "name": "@jason_yang0316/vibeguard",
   "version": "0.1.0",
   "description": "The safety net for vibe coding. Auto-snapshot, architecture guard, smart recovery.",
   "license": "MIT",
@@ -27,8 +27,8 @@
     "directory": "packages/cli"
   },
   "dependencies": {
-    "@vibeguard/shared": "workspace:^",
-    "@vibeguard/core": "workspace:^",
+    "vibeguard-shared": "workspace:^",
+    "vibeguard-core": "workspace:^",
     "citty": "^0.1.6",
     "consola": "^3.4.0"
   },

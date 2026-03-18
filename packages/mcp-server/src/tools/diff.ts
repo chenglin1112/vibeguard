@@ -1,4 +1,4 @@
-import type { SnapshotEngine } from "@vibeguard/core";
+import type { SnapshotEngine } from "vibeguard-core";
 
 export function getDiffTool(engine: SnapshotEngine) {
 	return {

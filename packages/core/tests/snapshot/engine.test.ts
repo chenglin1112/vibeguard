@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { SnapshotEngine } from '../../src/snapshot/engine.js';
 import { SimpleGitAdapter } from '../../src/snapshot/git-adapter.js';
-import { DEFAULT_CONFIG, VIBEGUARD_PREFIX } from '@vibeguard/shared';
+import { DEFAULT_CONFIG, VIBEGUARD_PREFIX } from 'vibeguard-shared';
 
 describe('SnapshotEngine', () => {
   let tempDir: string;
