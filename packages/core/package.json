@@ -1,0 +1,41 @@
+{
+  "name": "@vibeguard/core",
+  "version": "0.1.0",
+  "description": "Core engine for VibeGuard — snapshot, architecture analysis, health scoring",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenglin1112/vibeguard.git",
+    "directory": "packages/core"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@vibeguard/shared": "workspace:^",
+    "chokidar": "^4.0.0",
+    "consola": "^3.4.0",
+    "simple-git": "^3.27.0",
+    "ts-morph": "^27.0.2",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0"
+  }
+}

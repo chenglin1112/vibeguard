@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@vibeguard/shared": ["./packages/shared/src"],
+      "@vibeguard/core": ["./packages/core/src"],
+      "@vibeguard/cli": ["./packages/cli/src"],
+      "@vibeguard/mcp-server": ["./packages/mcp-server/src"]
+    }
+  },
+  "references": [
+    { "path": "packages/shared" },
+    { "path": "packages/core" },
+    { "path": "packages/cli" },
+    { "path": "packages/mcp-server" }
+  ]
+}

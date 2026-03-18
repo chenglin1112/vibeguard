@@ -1,0 +1,41 @@
+{
+  "name": "@vibeguard/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP Server for VibeGuard — AI tool integration for Cursor, Claude Code, Windsurf",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "vibeguard-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenglin1112/vibeguard.git",
+    "directory": "packages/mcp-server"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@vibeguard/shared": "workspace:^",
+    "@vibeguard/core": "workspace:^",
+    "@modelcontextprotocol/sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0"
+  }
+}

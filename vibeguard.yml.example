@@ -1,0 +1,27 @@
+version: 1
+
+snapshot:
+  enabled: true
+  auto: true
+  interval: 30
+  max_snapshots: 500
+  ignore:
+    - node_modules
+    - .git
+    - dist
+    - "*.log"
+
+rules:
+  preset: generic
+  custom: []
+
+health:
+  complexity_threshold: 15
+  duplication_threshold: 5
+  file_length_threshold: 300
+  dependency_depth_threshold: 5
+
+mcp:
+  enabled: true
+  port: 3777
+  mode: stdio
