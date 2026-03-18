@@ -2,7 +2,7 @@
 
 > The safety net for vibe coding. Vibe code fearlessly.
 
-[![npm version](https://img.shields.io/npm/v/vibeguard)](https://www.npmjs.com/package/vibeguard)
+[![npm version](https://img.shields.io/npm/v/vibeguard-core)](https://www.npmjs.com/package/vibeguard-core)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen)]()
 
