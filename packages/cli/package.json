@@ -1,6 +1,6 @@
 {
   "name": "@jason_yang0316/vibeguard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The safety net for vibe coding. Auto-snapshot, architecture guard, smart recovery.",
   "license": "MIT",
   "type": "module",
